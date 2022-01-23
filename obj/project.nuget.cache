@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SGZd8kjsjWM8dcQ8JusV7l71nBK7JbxzD8q4YkZ1z+0MXfk+Tqo/+ASox3zP2IcS2bMewg1530RJuf5PqzR+CQ==",
+  "dgSpecHash": "fMgdidZxyVHX0LZfBHBZ75R//A6bpYWmTh2rZ5zEIKYyf1dnK+FO/TSxDnC2HV7UVXUIs2ASejDHP6wSZzH2ww==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\source\\repos\\MyCompany1\\ASP.NETMyCompany\\MyCompany.csproj",
+  "projectFilePath": "C:\\Users\\user\\source\\repos\\MyCompany1\\MyCompany.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.1\\microsoft.aspnetcore.cryptography.internal.3.1.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.1\\microsoft.aspnetcore.cryptography.keyderivation.3.1.1.nupkg.sha512",
@@ -27,6 +27,7 @@
     "C:\\Users\\user\\.nuget\\packages\\microsoft.entityframeworkcore.design\\3.1.1\\microsoft.entityframeworkcore.design.3.1.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\3.1.1\\microsoft.entityframeworkcore.relational.3.1.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\3.1.1\\microsoft.entityframeworkcore.sqlserver.3.1.1.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\3.1.1\\microsoft.entityframeworkcore.tools.3.1.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\3.1.1\\microsoft.extensions.caching.abstractions.3.1.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.caching.memory\\3.1.1\\microsoft.extensions.caching.memory.3.1.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.1\\microsoft.extensions.configuration.3.1.1.nupkg.sha512",

@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using System;
+using Microsoft.AspNetCore.Mvc;
 using MyCompany.Domain;
 
 namespace MyCompany.Areas.User.Controllers
@@ -18,9 +19,27 @@ namespace MyCompany.Areas.User.Controllers
             return View(dataManager.TextFields.GetTextFieldByCodeWord("PageIndex"));
         }
 
-        public IActionResult Contacts()
+        public IActionResult Targets()
         {
-            return View(dataManager.TextFields.GetTextFieldByCodeWord("PageContacts"));
+            return View(dataManager.TextFields.GetTextFieldByCodeWord("PageTargets"));
         }
+        public IActionResult Sources()
+        {
+            return View(dataManager.TextFields.GetTextFieldByCodeWord("PageSources"));
+        }
+        public IActionResult Theory()
+        {
+            return View(dataManager.TextFields.GetTextFieldByCodeWord("PageTheory"));
+        }
+        public IActionResult Plan()
+        {
+            return View(dataManager.TextFields.GetTextFieldByCodeWord("PagePlan"));
+        }
+        public IActionResult Tests()
+        {
+            return View(dataManager.TextFields.GetTextFieldByCodeWord("PageTests"));
+        }
+        
+
     }
 }

@@ -10,8 +10,8 @@ using MyCompany.Domain;
 namespace MyCompany.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20220120063402__initial")]
-    partial class _initial
+    [Migration("20220123145952_updateHeaderUser")]
+    partial class updateHeaderUser
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -51,14 +51,14 @@ namespace MyCompany.Migrations
                         new
                         {
                             Id = "44546e06-8719-4ad8-b88a-f271ae9d6eab",
-                            ConcurrencyStamp = "2bd9e0e3-f923-45ed-bd64-19a998526ffb",
+                            ConcurrencyStamp = "25cc7b02-a7d2-420e-8dc4-19f7d425374b",
                             Name = "admin",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
                             Id = "38546e06-8719-4ad8-b88a-f271ae9d6ecs",
-                            ConcurrencyStamp = "19d25fd2-0912-409f-ad55-6d28779b802b",
+                            ConcurrencyStamp = "05227b66-b780-4495-8982-7dabf2e020cd",
                             Name = "user",
                             NormalizedName = "USER"
                         });
@@ -157,13 +157,13 @@ namespace MyCompany.Migrations
                         {
                             Id = "2c62472e-4f66-49fa-a20f-e7685b9565e9",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "a6380dc0-3d2a-4d6d-88fb-d8ae0ac6b3f9",
+                            ConcurrencyStamp = "912997b0-705b-4a3e-9145-b20adb3d043b",
                             Email = "user@email.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "MY@EMAIL.COM",
                             NormalizedUserName = "USER",
-                            PasswordHash = "AQAAAAEAACcQAAAAEIdnxmTLuzbWUhNVR9Ml1gjcS26ds9x9LnLpyof0DLI5pgC6gWffKuYPWUiCn2TGEA==",
+                            PasswordHash = "AQAAAAEAACcQAAAAECaNLrsCXKZ7Amu4MZ2hcKpGwMzeKVxJlZUxuIkfuKZhtW1fNIrko3AnVZ2rDireJQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -173,13 +173,13 @@ namespace MyCompany.Migrations
                         {
                             Id = "3b62472e-4f66-49fa-a20f-e7685b9565d8",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "62f591d4-778e-4edf-91e2-ec84fcc5f223",
+                            ConcurrencyStamp = "097b92b1-eaec-4dbb-8308-7a671ca25a1c",
                             Email = "admin@email.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "MY@EMAIL.COM",
                             NormalizedUserName = "ADMIN",
-                            PasswordHash = "AQAAAAEAACcQAAAAEHmYI65DRiVHol+j+fpdbbjlW4Yes8IIrYbFLWgnHUkeK92QD211ISFygqDuw0lZgg==",
+                            PasswordHash = "AQAAAAEAACcQAAAAECjsaliX+onTlPdD5FL4Xv81Vb/MAIiWlCyC8ZmYnPfKGUbw/c/qXi6Hdi7ZxdK1LA==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -356,27 +356,51 @@ namespace MyCompany.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("63dc8fa6-07ae-4391-8916-e057f71239ce"),
+                            Id = new Guid("f86a8c7c-eb4a-4a2b-8385-414d9cf0fca5"),
                             CodeWord = "PageIndex",
-                            DateAdded = new DateTime(2022, 1, 20, 6, 34, 1, 722, DateTimeKind.Utc).AddTicks(3385),
+                            DateAdded = new DateTime(2022, 1, 23, 14, 59, 52, 220, DateTimeKind.Utc).AddTicks(5504),
                             Text = "Содержание заполняется администратором",
                             Title = "Главная"
                         },
                         new
                         {
-                            Id = new Guid("70bf165a-700a-4156-91c0-e83fce0a277f"),
-                            CodeWord = "PageServices",
-                            DateAdded = new DateTime(2022, 1, 20, 6, 34, 1, 722, DateTimeKind.Utc).AddTicks(4408),
+                            Id = new Guid("b3f80e0e-9d09-42fb-86e7-22b804a88bc5"),
+                            CodeWord = "PageTargets",
+                            DateAdded = new DateTime(2022, 1, 23, 14, 59, 52, 220, DateTimeKind.Utc).AddTicks(6482),
                             Text = "Содержание заполняется администратором",
-                            Title = "Наши услуги"
+                            Title = "Цели и задачи"
                         },
                         new
                         {
-                            Id = new Guid("4aa76a4c-c59d-409a-84c1-06e6487a137a"),
-                            CodeWord = "PageContacts",
-                            DateAdded = new DateTime(2022, 1, 20, 6, 34, 1, 722, DateTimeKind.Utc).AddTicks(4451),
+                            Id = new Guid("9b6c65ae-1b34-4c09-8f0d-1d352fc98509"),
+                            CodeWord = "PageSources",
+                            DateAdded = new DateTime(2022, 1, 23, 14, 59, 52, 220, DateTimeKind.Utc).AddTicks(6525),
                             Text = "Содержание заполняется администратором",
-                            Title = "Контакты"
+                            Title = "Исходные данные"
+                        },
+                        new
+                        {
+                            Id = new Guid("69e55792-e895-4b9e-b5f2-7a24328e6e98"),
+                            CodeWord = "PagePlan",
+                            DateAdded = new DateTime(2022, 1, 23, 14, 59, 52, 220, DateTimeKind.Utc).AddTicks(6546),
+                            Text = "Содержание заполняется администратором",
+                            Title = "План работы"
+                        },
+                        new
+                        {
+                            Id = new Guid("0730ca63-ee35-46d7-b290-38f539c6528b"),
+                            CodeWord = "PageTheory",
+                            DateAdded = new DateTime(2022, 1, 23, 14, 59, 52, 220, DateTimeKind.Utc).AddTicks(6567),
+                            Text = "Содержание заполняется администратором",
+                            Title = "Теоретические и практические результаты"
+                        },
+                        new
+                        {
+                            Id = new Guid("a4c61202-34cc-4716-866c-9d6990b699cf"),
+                            CodeWord = "PageTests",
+                            DateAdded = new DateTime(2022, 1, 23, 14, 59, 52, 220, DateTimeKind.Utc).AddTicks(6590),
+                            Text = "Содержание заполняется администратором",
+                            Title = "Апробация результатов"
                         });
                 });
 

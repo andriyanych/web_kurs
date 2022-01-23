@@ -68,22 +68,42 @@ namespace MyCompany.Domain
             });
 
             modelBuilder.Entity<TextField>().HasData(new TextField { 
-                Id = new Guid("63dc8fa6-07ae-4391-8916-e057f71239ce"), 
+                Id = new Guid("f86a8c7c-eb4a-4a2b-8385-414d9cf0fca5"), 
                 CodeWord = "PageIndex", 
                 Title = "Главная"
             });
             modelBuilder.Entity<TextField>().HasData(new TextField
             {
-                Id = new Guid("70bf165a-700a-4156-91c0-e83fce0a277f"), 
-                CodeWord = "PageServices", 
-                Title = "Наши услуги"
+                Id = new Guid("b3f80e0e-9d09-42fb-86e7-22b804a88bc5"),
+                CodeWord = "PageTargets",
+                Title = "Цели и задачи"
             });
             modelBuilder.Entity<TextField>().HasData(new TextField
             {
-                Id = new Guid("4aa76a4c-c59d-409a-84c1-06e6487a137a"), 
-                CodeWord = "PageContacts", 
-                Title = "Контакты"
+                Id = new Guid("9b6c65ae-1b34-4c09-8f0d-1d352fc98509"),
+                CodeWord = "PageSources",
+                Title = "Исходные данные"
             });
+            modelBuilder.Entity<TextField>().HasData(new TextField
+            {
+                Id = new Guid("69e55792-e895-4b9e-b5f2-7a24328e6e98"), 
+                CodeWord = "PagePlan",
+                Title = "План работы"
+            });
+            
+            modelBuilder.Entity<TextField>().HasData(new TextField
+            {
+                Id = new Guid("0730ca63-ee35-46d7-b290-38f539c6528b"),
+                CodeWord = "PageTheory",
+                Title = "Теоретические и практические результаты"
+            });
+            modelBuilder.Entity<TextField>().HasData(new TextField
+            {
+                Id = new Guid("a4c61202-34cc-4716-866c-9d6990b699cf"),
+                CodeWord = "PageTests",
+                Title = "Апробация результатов"
+            });
+
         }
     }
 }

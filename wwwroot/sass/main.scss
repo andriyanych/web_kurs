@@ -356,11 +356,9 @@
 
 		nav {
 			position: absolute;
-			right: 40px;
+			/*right: 40px;*/
 			top: 1px;
 			line-height: 84px;
-			text-transform: lowercase;
-			font-size: 1.3em;
 			letter-spacing: -1px;
 
 			a {
@@ -369,6 +367,7 @@
 				color: #fff;
 				padding: 0 25px 0 25px;
 				outline: 0;
+				font-size : 20px;
 
 				&.current-page-item {
 					@include vendor('background-image', 'linear-gradient(top, #007b99, #007897)');

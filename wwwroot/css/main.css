@@ -881,18 +881,17 @@ ul.link-list li {
       text-decoration: none; }
   #header nav {
     position: absolute;
-    right: 40px;
+    /*right: 40px;*/
     top: 1px;
     line-height: 84px;
-    text-transform: lowercase;
-    font-size: 1.3em;
     letter-spacing: -1px; }
     #header nav a {
       display: inline-block;
       text-decoration: none;
       color: #fff;
       padding: 0 25px 0 25px;
-      outline: 0; }
+      outline: 0;
+      font-size: 20px; }
       #header nav a.current-page-item {
         background-image: -moz-linear-gradient(top, #007b99, #007897);
         background-image: -webkit-linear-gradient(top, #007b99, #007897);
