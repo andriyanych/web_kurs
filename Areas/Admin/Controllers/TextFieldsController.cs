@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using MyCompany.Domain;
-using MyCompany.Domain.Entities;
-using MyCompany.Service;
+using web_app.Domain;
+using web_app.Domain.Entities;
+using web_app.Service;
 
-namespace MyCompany.Areas.Admin.Controllers
+namespace web_app.Areas.Admin.Controllers
 {
     [Area("Admin")]
     public class TextFieldsController : Controller

@@ -1,7 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using MyCompany.Domain;
+﻿using web_app.Service;
+using Microsoft.AspNetCore.Mvc;
+using web_app.Domain;
 
-namespace MyCompany.Areas.Admin.Controllers
+namespace web_app.Areas.Admin.Controllers
 {
     [Area("Admin")]
     public class HomeController : Controller

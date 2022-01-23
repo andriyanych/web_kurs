@@ -2,9 +2,9 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using MyCompany.Models;
+using web_app.Models;
 
-namespace MyCompany.Controllers
+namespace web_app.Controllers
 {
     [Authorize]
     public class AccountController : Controller
@@ -36,7 +36,7 @@ namespace MyCompany.Controllers
                     Microsoft.AspNetCore.Identity.SignInResult result = await signInManager.PasswordSignInAsync(user, model.Password, model.RememberMe, false);
                     if (result.Succeeded)
                     {
-                        return Redirect(returnUrl ?? "/"+user);
+                        return Redirect(returnUrl ?? "/" + user);
                     }
                 }
                 ModelState.AddModelError(nameof(LoginViewModel.UserName), "Неверный логин или пароль");

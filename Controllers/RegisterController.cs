@@ -2,9 +2,9 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using MyCompany.Models;
+using web_app.Models;
 
-namespace MyCompany.Controllers
+namespace web_app.Controllers
 {
     [Authorize]
     public class RegisterController : Controller

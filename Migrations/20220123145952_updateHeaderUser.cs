@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace MyCompany.Migrations
+namespace web_app.Migrations
 {
     public partial class updateHeaderUser : Migration
     {

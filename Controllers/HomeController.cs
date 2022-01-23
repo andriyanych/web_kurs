@@ -1,12 +1,12 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using MyCompany.Domain;
+using web_app.Domain;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace MyCompany.Controllers
+namespace web_app.Controllers
 {
     public class HomeController : Controller
     {

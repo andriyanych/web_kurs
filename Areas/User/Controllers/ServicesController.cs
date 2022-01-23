@@ -1,8 +1,8 @@
 ﻿using System;
 using Microsoft.AspNetCore.Mvc;
-using MyCompany.Domain;
+using web_app.Domain;
 
-namespace MyCompany.Areas.User.Controllers
+namespace web_app.Areas.User.Controllers
 {
     [Area("User")]
     public class ServicesController : Controller

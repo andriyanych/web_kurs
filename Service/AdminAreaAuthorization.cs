@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ApplicationModels;
 using Microsoft.AspNetCore.Mvc.Authorization;
 
-namespace MyCompany.Service
+namespace web_app.Service
 {
     public class AdminAreaAuthorization : IControllerModelConvention
     {

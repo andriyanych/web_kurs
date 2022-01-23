@@ -14,34 +14,34 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
 #line 2 "C:\Users\user\source\repos\MyCompany1\Views\_ViewImports.cshtml"
-using MyCompany.Models;
+using web_app.Models;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 3 "C:\Users\user\source\repos\MyCompany1\Views\_ViewImports.cshtml"
-using MyCompany.Service;
+using web_app.Service;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 4 "C:\Users\user\source\repos\MyCompany1\Views\_ViewImports.cshtml"
-using MyCompany.Domain.Entities;
+using web_app.Domain.Entities;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 5 "C:\Users\user\source\repos\MyCompany1\Views\_ViewImports.cshtml"
-using MyCompany.Models.ViewComponents;
+using web_app.Models.ViewComponents;
 
 #line default
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"1ecdef0346033073b3d8babccb7697a9833fd395", @"/Views/Register/Register.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"c98feb9e1a0657b22553d465a169b966cb06b16d", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"e100fafa57f58140510435ad7535fad62f6fdd8c", @"/Views/_ViewImports.cshtml")]
     public class Views_Register_Register : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<LoginViewModel>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-area", "", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -74,7 +74,7 @@ using MyCompany.Models.ViewComponents;
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
             WriteLiteral("<div>\r\n    <h1>Регистрация</h1>\r\n    <div class=\"div-box\">\r\n        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1ecdef0346033073b3d8babccb7697a9833fd3954839", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1ecdef0346033073b3d8babccb7697a9833fd3954831", async() => {
                 WriteLiteral("\r\n            <h2>Логин</h2>\r\n            <input type=\"text\" name=\"name\"");
                 BeginWriteAttribute("value", " value=\"", 280, "\"", 288, 0);
                 EndWriteAttribute();

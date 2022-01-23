@@ -132,11 +132,9 @@ C:\Users\user\source\repos\MyCompany1\obj\Debug\netcoreapp3.1\MyCompany.TagHelpe
 C:\Users\user\source\repos\MyCompany1\obj\Debug\netcoreapp3.1\MyCompany.TagHelpers.output.cache
 C:\Users\user\source\repos\MyCompany1\obj\Debug\netcoreapp3.1\MyCompany.RazorCoreGenerate.cache
 C:\Users\user\source\repos\MyCompany1\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Home\Index.cshtml.g.cs
-C:\Users\user\source\repos\MyCompany1\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\ServiceItems\Edit.cshtml.g.cs
 C:\Users\user\source\repos\MyCompany1\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\TextFields\Edit.cshtml.g.cs
 C:\Users\user\source\repos\MyCompany1\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\_ViewImports.cshtml.g.cs
 C:\Users\user\source\repos\MyCompany1\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\_ViewStart.cshtml.g.cs
-C:\Users\user\source\repos\MyCompany1\obj\Debug\netcoreapp3.1\Razor\Areas\User\Views\Home\Contacts.cshtml.g.cs
 C:\Users\user\source\repos\MyCompany1\obj\Debug\netcoreapp3.1\Razor\Areas\User\Views\Home\Index.cshtml.g.cs
 C:\Users\user\source\repos\MyCompany1\obj\Debug\netcoreapp3.1\Razor\Areas\User\Views\Home\Plan.cshtml.g.cs
 C:\Users\user\source\repos\MyCompany1\obj\Debug\netcoreapp3.1\Razor\Areas\User\Views\Home\Sources.cshtml.g.cs
@@ -145,7 +143,6 @@ C:\Users\user\source\repos\MyCompany1\obj\Debug\netcoreapp3.1\Razor\Areas\User\V
 C:\Users\user\source\repos\MyCompany1\obj\Debug\netcoreapp3.1\Razor\Areas\User\Views\Home\Theory.cshtml.g.cs
 C:\Users\user\source\repos\MyCompany1\obj\Debug\netcoreapp3.1\Razor\Areas\User\Views\Services\Index.cshtml.g.cs
 C:\Users\user\source\repos\MyCompany1\obj\Debug\netcoreapp3.1\Razor\Areas\User\Views\Services\Show.cshtml.g.cs
-C:\Users\user\source\repos\MyCompany1\obj\Debug\netcoreapp3.1\Razor\Areas\User\Views\Shared\Components\Sidebar\Default.cshtml.g.cs
 C:\Users\user\source\repos\MyCompany1\obj\Debug\netcoreapp3.1\Razor\Areas\User\Views\Shared\CssPartial.cshtml.g.cs
 C:\Users\user\source\repos\MyCompany1\obj\Debug\netcoreapp3.1\Razor\Areas\User\Views\Shared\FooterPartial.cshtml.g.cs
 C:\Users\user\source\repos\MyCompany1\obj\Debug\netcoreapp3.1\Razor\Areas\User\Views\Shared\HeaderPartial.cshtml.g.cs
@@ -172,3 +169,10 @@ C:\Users\user\source\repos\MyCompany1\obj\Debug\netcoreapp3.1\MyCompany.csproj.C
 C:\Users\user\source\repos\MyCompany1\obj\Debug\netcoreapp3.1\MyCompany.dll
 C:\Users\user\source\repos\MyCompany1\obj\Debug\netcoreapp3.1\MyCompany.pdb
 C:\Users\user\source\repos\MyCompany1\obj\Debug\netcoreapp3.1\MyCompany.genruntimeconfig.cache
+C:\Users\user\source\repos\MyCompany1\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Shared\Components\Sidebar\Default.cshtml.g.cs
+C:\Users\user\source\repos\MyCompany1\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Shared\CssPartial.cshtml.g.cs
+C:\Users\user\source\repos\MyCompany1\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Shared\FooterPartial.cshtml.g.cs
+C:\Users\user\source\repos\MyCompany1\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Shared\HeaderPartial.cshtml.g.cs
+C:\Users\user\source\repos\MyCompany1\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Shared\MetatagsPartial.cshtml.g.cs
+C:\Users\user\source\repos\MyCompany1\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Shared\ScriptsPartial.cshtml.g.cs
+C:\Users\user\source\repos\MyCompany1\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Shared\_Layout.cshtml.g.cs

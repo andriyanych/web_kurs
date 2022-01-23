@@ -14,34 +14,34 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
 #line 2 "C:\Users\user\source\repos\MyCompany1\Views\_ViewImports.cshtml"
-using MyCompany.Models;
+using web_app.Models;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 3 "C:\Users\user\source\repos\MyCompany1\Views\_ViewImports.cshtml"
-using MyCompany.Service;
+using web_app.Service;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 4 "C:\Users\user\source\repos\MyCompany1\Views\_ViewImports.cshtml"
-using MyCompany.Domain.Entities;
+using web_app.Domain.Entities;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 5 "C:\Users\user\source\repos\MyCompany1\Views\_ViewImports.cshtml"
-using MyCompany.Models.ViewComponents;
+using web_app.Models.ViewComponents;
 
 #line default
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"6409054a87a06817c56afa3dc2547abc29c53440", @"/Views/Home/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"c98feb9e1a0657b22553d465a169b966cb06b16d", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"e100fafa57f58140510435ad7535fad62f6fdd8c", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<TextField>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-area", "", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -86,7 +86,7 @@ using MyCompany.Models.ViewComponents;
 #line hidden
 #nullable disable
             WriteLiteral("\r\n<div>\r\n    <h1>Добро пожаловатЬ!</h1>\r\n    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6409054a87a06817c56afa3dc2547abc29c534405662", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6409054a87a06817c56afa3dc2547abc29c534405654", async() => {
                 WriteLiteral("\r\n        <button >Вход</button>\r\n    ");
             }
             );
@@ -110,7 +110,7 @@ using MyCompany.Models.ViewComponents;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6409054a87a06817c56afa3dc2547abc29c534407737", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6409054a87a06817c56afa3dc2547abc29c534407729", async() => {
                 WriteLiteral("\r\n        <button >Регистрация</button>\r\n    ");
             }
             );

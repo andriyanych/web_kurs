@@ -1,8 +1,8 @@
 ﻿using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using MyCompany.Domain;
+using web_app.Domain;
 
-namespace MyCompany.Models.ViewComponents
+namespace web_app.Models.ViewComponents
 {
     public class SidebarViewComponent : ViewComponent
     {

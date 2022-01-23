@@ -1,4 +1,4 @@
-﻿namespace MyCompany.Service
+﻿namespace web_app.Service
 {
     public static class Extensions
     {

@@ -1,8 +1,7 @@
-﻿using System;
-using Microsoft.AspNetCore.Mvc;
-using MyCompany.Domain;
+﻿using Microsoft.AspNetCore.Mvc;
+using web_app.Domain;
 
-namespace MyCompany.Areas.User.Controllers
+namespace web_app.Areas.User.Controllers
 {
     [Area("User")]
     public class HomeController : Controller

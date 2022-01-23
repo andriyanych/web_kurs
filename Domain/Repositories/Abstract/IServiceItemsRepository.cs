@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Linq;
-using MyCompany.Domain.Entities;
+using web_app.Domain.Entities;
 
-namespace MyCompany.Domain.Repositories.Abstract
+namespace web_app.Domain.Repositories.Abstract
 {
     public interface IServiceItemsRepository
     {

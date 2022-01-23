@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Linq;
 using Microsoft.EntityFrameworkCore;
-using MyCompany.Domain.Entities;
-using MyCompany.Domain.Repositories.Abstract;
+using web_app.Domain.Entities;
+using web_app.Domain.Repositories.Abstract;
+using web_app.Domain;
 
-namespace MyCompany.Domain.Repositories.EntityFramework
+namespace web_app.Domain.Repositories.EntityFramework
 {
     public class EFTextFieldsRepository : ITextFieldsRepository
     {

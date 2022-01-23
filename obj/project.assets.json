@@ -8326,9 +8326,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\source\\repos\\MyCompany1\\MyCompany.csproj",
-      "projectName": "MyCompany",
-      "projectPath": "C:\\Users\\user\\source\\repos\\MyCompany1\\MyCompany.csproj",
+      "projectUniqueName": "C:\\Users\\user\\source\\repos\\MyCompany1\\web_app.csproj",
+      "projectName": "web_app",
+      "projectPath": "C:\\Users\\user\\source\\repos\\MyCompany1\\web_app.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\user\\source\\repos\\MyCompany1\\obj\\",
       "projectStyle": "PackageReference",

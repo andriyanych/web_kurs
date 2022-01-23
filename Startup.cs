@@ -6,12 +6,13 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using MyCompany.Domain;
-using MyCompany.Domain.Repositories.Abstract;
-using MyCompany.Domain.Repositories.EntityFramework;
-using MyCompany.Service;
+using web_app.Domain;
+using web_app.Domain.Repositories.Abstract;
+using web_app.Domain.Repositories.EntityFramework;
+using web_app.Service;
+using web_app.Domain;
 
-namespace MyCompany
+namespace web_app
 {
     public class Startup
     {

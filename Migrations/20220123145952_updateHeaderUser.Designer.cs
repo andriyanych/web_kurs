@@ -5,9 +5,9 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using MyCompany.Domain;
+using web_app.Domain;
 
-namespace MyCompany.Migrations
+namespace web_app.Migrations
 {
     [DbContext(typeof(AppDbContext))]
     [Migration("20220123145952_updateHeaderUser")]

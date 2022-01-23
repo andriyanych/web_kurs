@@ -1,6 +1,6 @@
-﻿using MyCompany.Domain.Repositories.Abstract;
+﻿using web_app.Domain.Repositories.Abstract;
 
-namespace MyCompany.Domain
+namespace web_app.Domain
 {
     public class DataManager
     {
