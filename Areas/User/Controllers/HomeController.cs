@@ -37,8 +37,7 @@ namespace web_app.Areas.User.Controllers
         public IActionResult Tests()
         {
             return View(dataManager.TextFields.GetTextFieldByCodeWord("PageTests"));
-        }
-        
+        }        
 
     }
 }

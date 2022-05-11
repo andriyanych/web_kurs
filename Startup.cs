@@ -10,7 +10,6 @@ using web_app.Domain;
 using web_app.Domain.Repositories.Abstract;
 using web_app.Domain.Repositories.EntityFramework;
 using web_app.Service;
-using web_app.Domain;
 
 namespace web_app
 {

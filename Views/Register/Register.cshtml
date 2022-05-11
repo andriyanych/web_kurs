@@ -3,12 +3,13 @@
     <h1>Регистрация</h1>
     <div class="div-box">
         <form asp-area="" asp-controller="Account" asp-action="Login" method="post" asp-route-returnUrl="@ViewBag.returnUrl">
-            <h2>Логин</h2>
-            <input type="text" name="name" value="" placeholder="Login" />
-            <h2>Пароль</h2>
-            <input type="text" name="name" value="" placeholder="Password" />
+            <div>Логин</div>
+            <input type="text" name="name" value="" placeholder="Пользователь" />
+            <div>Пароль</div>
+            <input type="password" name="name" value="" placeholder="Пароль" />
+            <div>
             <button type="submit">Зарегистрироваться</button>
-
+            </div>
         </form>
     </div>
 </div>
